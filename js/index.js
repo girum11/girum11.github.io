@@ -1,24 +1,14 @@
 $(document).ready(function () {
     var $daysSinceGraduation = $('#daysSinceGraduation');
     var $weeksSinceStartingChordsing = $('#weeksSinceStartingChordsing');
+    var $yearsOfAge = $('#yearsOfAge');
     var now = moment();
 
-
-    function calculateDaysSinceGraduation() {
-        var graduationDate = moment([2013, 5, 15]);
-
-        var daysSinceGraduation = now.diff(graduationDate, 'days');
-        $daysSinceGraduation.html(daysSinceGraduation);
+    var calculateDiff = function (startDate, unitOfTime) {
+        return now.diff(startDate, unitOfTime);
     }
 
-    function calculateWeeksSinceStartingChordsing() {
-        var chordsingStartDate = moment([2013, 10, 11]);
-
-        var weeksSinceStartingChordsing = now.diff(chordsingStartDate, 'weeks');
-        $weeksSinceStartingChordsing.html(weeksSinceStartingChordsing);
-    }
-
-
-    calculateDaysSinceGraduation();
-    calculateWeeksSinceStartingChordsing();
+    $daysSinceGraduation.html(calculateDiff(moment([2013, 5, 15]), 'days'));
+    $weeksSinceStartingChordsing.html(calculateDiff(moment([2013, 10, 11]), 'weeks'));
+    $yearsOfAge.html(calculateDiff(moment([1990, 7, 25]), 'years'));
 });
