@@ -1,0 +1,219 @@
+{
+    "settings": {
+        "glyphicons": true
+    },
+    "firstname": "Girum",
+    "familyname": "Ibssa",
+    "linkedin_id": "118268829",
+    "github_id": "the-real-girum",
+    "bio_data": {
+        "email": "gibssa @ calpoly.edu",
+        "phone": "(916) 228-9577",
+        "website": "http://girum.org",
+        "stars": ["Java", "Javascript", "Python", "Piano"],
+        "github_projects": {
+            "details": [
+                {
+                    "project_name": "the-real-girum/chordsing",
+                    "tagline": "Live at [chordsing.com](http://chordsing.com)",
+                    "description": [
+                        "Wrote a Tetris variant of 2048 game, 1M+ unique visits",
+                        "Made it to the front page of Hacker News for a day(~150 pts), mentioned in TechCrunch."
+                    ]
+                },
+                {
+                    "project_name": "the-real-girum/hang",
+                    "tagline": "Live at [Maxinapp.com](http://maxinapp.com)",
+                    "description": [
+                        "Finds relevant repositories based on an user's GitHub profile.",
+                        "Written in Ruby on Sinatra and uses Github's Octokit gem"
+                    ]
+                },
+                {
+                    "project_name": "mobile-metrics",
+                    "tagline": "Live at [Maxinapp.com](http://maxinapp.com)",
+                    "description": [
+                        "Finds relevant repositories based on an user's GitHub profile.",
+                        "Written in Ruby on Sinatra and uses Github's Octokit gem"
+                    ]
+                },
+                {
+                    "project_name": "channel-4-exam-creator",
+                    "tagline": "Live at [Maxinapp.com](http://maxinapp.com)",
+                    "description": [
+                        "Finds relevant repositories based on an user's GitHub profile.",
+                        "Written in Ruby on Sinatra and uses Github's Octokit gem"
+                    ]
+                }
+            ]
+        },
+        "experience": {
+            "items": [
+                {
+                    "title": "Associate Software Engineer",
+                    "organisation": "Veeva Systems",
+                    "location": "Pleasanton",
+                    "from": "Sept. 2013",
+                    "to": "Jan. 2014",
+                    "details": [
+                        "Full stack... Network Integration",
+                        "Responsible for Concur Integration in its entirety...",
+                        "Two mission-critical admin pages...",
+                        "_(Lead?)_ Cal Poly Capstone mentor for Veeva Mobile Vault...",
+                        ""
+                    ],
+                    "technology_used": {
+                        "tools": [
+                            "Java",
+                            "Javascript",
+                            "AngularJS",
+                            "LESS",
+                            "Salesforce SOQL",
+                            "Apache CXF",
+                            "Guava"
+                        ]
+                    }
+                },
+                {
+                    "title": "Computer Science Research Intern",
+                    "organisation": "UC Berkeley",
+                    "from": "Apr. 2013",
+                    "to": "Jul. 2013",
+                    "details": [
+                        "Wrote a ruby gem _Morsel_ to traverse through active record trees to purge old records. It helped in limiting the production database size and keeping the data clean."
+                    ]
+                },
+                {
+                    "title": "Software Engineer Intern",
+                    "organisation": "Shopatron Inc.",
+                    "location": "San Luis Obispo",
+                    "from": "Jun. 2011",
+                    "to": "Mar. 2013",
+                    "details": [
+                        "Was part of a team which developed the warehouse module in RoR framework from scratch. It now scales to around 10X as compared to the ERP system existed.",
+                        "Designed warehouse stock snapshots and stock ledger framework using Pig scripts to make the supply chain system legally compliant."
+                    ],
+                    "technology_used": {
+                        "tools": [
+                            "Ruby",
+                            "Java",
+                            "Pig",
+                            "Active Records",
+                            "MySQL"
+                        ]
+                    }
+                }
+            ]
+        },
+        "skills": {
+            "details": [
+                {
+                    "type": "Programming Languages",
+                    "items": [
+                        "Java (90%)",
+                        "Javascript (30%)",
+                        "Python (20%)",
+                        "C++",
+                        "Objective-C",
+                        "PHP :("
+                    ]
+                },
+                {
+                    "type": "Web Frameworks",
+                    "items": [
+                        "AngularJS",
+                        "Apache CXF (JAX-RS)",
+                        "Django",
+                        "Google App Engine (Python)",
+                        "Google App Engine (Java)",
+                        "XMPP (chat)"
+                    ]
+                },
+                {
+                    "type": "Databases",
+                    "items": [
+                        "Salesforce SOQL",
+                        "App Engine Datastore (Bigtable)",
+                        "PostgreSQL",
+                        "MySQL"
+                    ]
+                }
+            ]
+        },
+        "education": {
+            "show_gpa": true,
+            "schools": [
+                {
+                    "degree": "Bachelor of Science",
+                    "major": "Software Engineering",
+                    "institution": "Cal Poly San Luis Obispo (again)",
+                    "graduation_year": 2013,
+                    "gpa": "2.95 (cumulative)"
+                },
+                {
+                    "degree": "Associates of Science for Transfer",
+                    "major": "Computer Science",
+                    "institution": "Los Rios Community College",
+                    "graduation_year": 2011,
+                    "gpa": "3.54"
+                },
+                {
+                    "degree": "Bachelor of Science",
+                    "major": "Computer Engineering",
+                    "institution": "Cal Poly San Luis Obispo",
+                    "graduation_year": 2010,
+                    "gpa": "0.56"
+                }
+            ]
+        },
+        "acad_achievements": {
+            "items": [
+                "Deans List _(GPA > 3.9)_ from Summer 2010 to Fall 2011",
+                "Recipient of $2000 LSAMP \"_CSU Scholars_\" scholarship (3 recipients), and member of LSAMP CSU"
+            ]
+        },
+        "other_projects": {
+            "items": [
+                {
+                    "headline": "Designed product _Omerta_, a multi-user chat room application in j2me using Sun Wireless Toolkit platform.",
+                    "points": [
+                        "Was awarded 1<sup>st</sup> position for the product in [Envision](http://www.ecell-iitkgp.org/envision.php), Product Innovation Contest, IIT KGP.",
+                        "Was awarded 1<sup>st</sup> position for the product in Javawise, J2ME s/w Development Contest at IIT Kharagpur, 2008 and 2009 continuously."
+                    ]
+                }
+            ]
+        },
+        "undergrad_courses": [
+            {
+                "name": "Network Systems",
+                "url": "http://www.facweb.iitkgp.ernet.in/~agupta/netlab/"
+            },
+            {
+                "name": "Graph Theory",
+                "url": "http://cse.iitkgp.ac.in/~agupta/graph/"
+            }
+        ],
+        "papers": {
+            "items": [
+                {
+                    "authors": "Michl Dugls, Mrclo Dsconi",
+                    "title": "Some exotic dummy title like potentials arising from string compactifications",
+                    "misc": "arXiv: 1206.1885, June 2012"
+                }
+            ]
+        },
+        "memberships": {
+            "committees": [
+                "Created new Veeva University program (22-page proposal; currently affects 38 interns / new grads)",
+                "Veeva Cal Poly Capstone led to Veeva being on the Cal Poly Industry Advisory Board (shirts)",
+                "Organizer/Captain of [Veeva Soccer](http://s3.amazonaws.com/girumibssa/veeva+soccer+poster.png) (16 -> 25 players)"
+            ]
+        },
+        "extra_curricular": {
+            "items": [
+                "Licensed performing pianist at UC Berkeley's International House",
+                "Ex-nationally ranked World of Warcraft player  ;-)"
+            ]
+        }
+    }
+}
